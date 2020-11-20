@@ -73,6 +73,7 @@ form input {
   font-size: 16px;
   padding: 15px 30px;
   width: 100%;
+  font-weight: bold;
 }
 
 form button {
@@ -88,10 +89,11 @@ form button {
 }
 
 .btn {
-  background-color: #8d56fd;
+  background-color: #3accd1;
   border: 0;
   border-radius: 10px;
   color: #fff;
+  font-weight: bold;
   padding: 4px 10px;
 }
 
@@ -132,7 +134,7 @@ form button {
 
 .song-artist {
   color: white;
-  opacity: .4;
+  opacity: 0.5;
   max-width: 400px;
 }
 
@@ -144,4 +146,5 @@ form button {
 .lyrics {
   margin-top: 20px;
   line-height: 1.5;
+  color: white;
 }
