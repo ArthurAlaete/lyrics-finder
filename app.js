@@ -36,16 +36,21 @@ const getMoreSongs = async url => {
     insertSongsIntoPage(data)
 }
 
+const createLI = songsInfo => {
+    const lis = songsInfo.data.map(song =>
+        `<li class="song">
+            <span class="song-artist"><strong>${song.artist.name}</strong> - ${song.title}</span>
+            <button class="btn" data-artist="${song.artist.name}" data-song-title="${song.title}">Ver letra</button>
+        </li>
+        `)
+        .reduce((accumulator, li)  => accumulator += li , '')
+    return lis
+}
+
 
 const insertSongsIntoPage = songsInfo => {
-    console.log(songsInfo)
-    const lis = songsInfo.data.map(song =>
-    `<li class="song">
-        <span class="song-artist"><strong>${song.artist.name}</strong> - ${song.title}</span>
-        <button class="btn" data-artist="${song.artist.name}" data-song-title="${song.title}">Ver letra</button>
-    </li>
-    `)
-    .reduce((accumulator, li)  => accumulator += li , '')
+
+    const lis = createLI(songsInfo)
 
     songsContainer.innerHTML = lis
 
