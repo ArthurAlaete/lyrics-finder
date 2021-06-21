@@ -1,3 +1,3 @@
-# buscador_letras_musica
+# Lyrics Finder
 
-Um buscador de letras de músicas, feito com javascript puro.
+Lyrics finder developed with pure Javascript, HTML and CSS.
