@@ -2,7 +2,7 @@
 
 # Lyrics Finder ✨
 
-This project is a simple search music lyrics developed with pur Javascript, HTML and CSS3.
+This project is a simple search music lyrics developed with pure Javascript, HTML and CSS3.
 
 # Running the Project 🔥
 
