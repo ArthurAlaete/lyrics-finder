@@ -20,7 +20,7 @@ This project is a simple search music lyrics developed with pure Javascript, HTM
 1. Clonning the repository:
 
 ```bash
-$ git clone https://github.com/ArthurAlaete/security_storm.git
+$ git clone https://github.com/ArthurAlaete/lyrics-finder.git
 ```
 
 ## Running the project 🔥
